@@ -17,6 +17,7 @@ public class SurveyController {
         this.surveyService = surveyService;
     }
 
+
     @GetMapping
     public List<Survey> getAllSurveys() {
         return surveyService.getAllSurveys();

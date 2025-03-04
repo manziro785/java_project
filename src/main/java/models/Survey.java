@@ -17,6 +17,7 @@ public class Survey {
 
     public Survey() {}
 
+
     public Survey(String title) {
         this.title = title;
     }
